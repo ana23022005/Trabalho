@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="cadastro.js" type="text/JavaScript" defer></script>
+</head>
+<body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="aprsentacao.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="form-section">
+                <h1>Cadastro de Usuário</h1>
+                <form id="cadastroForm">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="opniao">Deixe sua opinião sobre nosso site:</label>
+                    <textarea id="opniao" name="opniao" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+                <div id="formMessage"></div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+        <footer>
+            <p>&copy; 2024 Seu Site. Todos os direitos reservados.  <img class="logo"  src="LOGO.jpg" alt="Equipe de Desenvolvimento"></p>
+        </footer>
+    
+       
+    </body>
+    </html>
